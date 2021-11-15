@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite" >
+<listeners>
+        <listener class-name="net.vijay.amlosafe.listeners.TestListener" />
+    </listeners>
+
+    <test name="API Test Cases">
+           <classes>
+            <class name="net.vijay.postService.PostService">
+            </class>
+           <class name="net.vijay.API.getService.GetService">        
+            </class>
+         </classes>         
+    </test>
+</suite>
